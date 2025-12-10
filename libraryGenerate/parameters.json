@@ -1,0 +1,30 @@
+{
+  "grid_parameters": {
+    "x": {
+      "start": 2.0,
+      "end": 23.0,
+      "step": 3
+    },
+    "y": {
+      "start": 2.0,
+      "end": 23.0,
+      "step":3
+    },
+    "z": {
+      "start": -6.5,
+      "end": -0.5,
+      "step": 1.0
+    }
+  },
+  "detector_parameters": {
+    "z_position": -9.0,
+    "pixels_x": 8,
+    "pixels_y": 8,
+    "pixel_size_mm":6.0625
+  },
+  "io_parameters": {
+    "gate_template_file": "main_template.mac",
+    "output_directory": "F:/vgate_share_seagate/copy_start2+3x/output_data",
+    "library_filename": "MyReferenceLibrary3mmstart2mm.mat"
+  }
+}
