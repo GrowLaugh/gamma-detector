@@ -30,10 +30,10 @@ y_coords_quad1 = y_coords;
 [nx_quad, ny_quad, nz] = size(referprojection_q1);
 
 % 计算完整库的维度
-% nx_full = nx_quad * 2 - 1;
-% ny_full = ny_quad * 2 - 1;
-nx_full = nx_quad * 2 ;
-ny_full = ny_quad * 2 ;%针对起始坐标不是0的情况
+nx_full = nx_quad * 2 - 1;
+ny_full = ny_quad * 2 - 1;
+% nx_full = nx_quad * 2 ;
+% ny_full = ny_quad * 2 ;%针对起始坐标不是0的情况
 
 
 
@@ -438,4 +438,5 @@ fprintf('全尺寸对称参考库已保存到新文件: %s\n', outputFile);
 % 
 % fprintf('============================================================\n');
 % fprintf('扩展完成！\n');
+
 % fprintf('全尺寸对称参考库已保存到新文件: %s\n', outputFile);
